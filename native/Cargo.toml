@@ -1,0 +1,28 @@
+[package]
+name = "minhash"
+version = "0.1.0"
+authors = ["isengupt <ishan6060@gmail.com>"]
+license = "MIT"
+build = "build.rs"
+edition = "2018"
+exclude = ["artifacts.json", "index.node"]
+
+[lib]
+name = "minhash"
+crate-type = ["cdylib"]
+
+[build-dependencies]
+neon-build = "0.4.0"
+
+[dependencies]
+neon = "0.4.0"
+
+serde_derive = "1.0.80"
+serde = "1.0.80"
+serde_json = "1.0"
+crc32fast = "1.2.0"
+itertools = "0.9.0"
+combinations = "0.1.0"
+rand = "0.7.3"
+array2d = "0.2.1"
+optimize = "0.1.0"

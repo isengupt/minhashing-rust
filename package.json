@@ -1,0 +1,15 @@
+{
+  "name": "minhash",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "author": "isengupt <ishan6060@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "neon-cli": "^0.4.0",
+    "node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "install": "neon build"
+  }
+}
